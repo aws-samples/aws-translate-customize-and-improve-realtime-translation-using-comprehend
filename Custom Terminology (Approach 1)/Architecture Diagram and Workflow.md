@@ -10,6 +10,8 @@ In scenarios where a custom terminology is used as part of the translation reque
 
 ## Architecture Diagram
 
+<br>
+
 ![image](https://user-images.githubusercontent.com/32926625/203523514-0d035852-18c0-4955-8ad8-db76f02add96.png)
 
 <br>
