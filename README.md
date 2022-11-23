@@ -66,6 +66,7 @@ This sample addresses the above concerns using custom workflow where the transla
 1. Use [Custom Terminology](https://docs.aws.amazon.com/translate/latest/dg/how-custom-terminology.html) to ensure brand names, character names, model names, and other unique content is translated exactly the way you need it, regardless of its context and the Amazon Translate algorithm’s decision. This requires the user to maintain and update the custom terminology file
 2. Use Comprehend to detect entities/PII data and apply tags/angular braces to avoid translation of specific terms.
 
+Relevant code samples attached for both the approaches.
 
 
 ## Security
