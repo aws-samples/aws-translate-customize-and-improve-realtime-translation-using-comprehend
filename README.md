@@ -5,7 +5,7 @@ Audio dubbing is the process of replacing the original dialogue from your video 
 Traditional dubbing is an expensive and time-consuming process, and AI voices provide a cheap and scalable alternative to them. A typical AI workflow to dub audio/video is as mentioned below :
 
 
-!(https://user-images.githubusercontent.com/32926625/203485943-7cc84c9b-2b1f-4480-85b8-f026918d49bd.png)
+! (https://user-images.githubusercontent.com/32926625/203485943-7cc84c9b-2b1f-4480-85b8-f026918d49bd.png)
 
 
 
