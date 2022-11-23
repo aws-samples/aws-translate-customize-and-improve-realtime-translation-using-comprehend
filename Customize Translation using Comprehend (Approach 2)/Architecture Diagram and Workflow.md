@@ -126,7 +126,7 @@ for i in person :
     text = text.replace(i,target_string)
 ```    
 
-
+3. Fire translate API call using the above modified text as the payload for input text to translate the text from the given source language to the required target language.
 
 
 ## Obervations and Results
