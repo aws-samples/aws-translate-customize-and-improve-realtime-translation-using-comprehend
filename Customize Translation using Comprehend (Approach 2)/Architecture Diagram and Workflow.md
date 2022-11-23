@@ -113,6 +113,22 @@ Detecting entities detected in the transcript :
 }
 ```
 
+2. Modify input before translation :
+
+_Code snippet to parse out list of “PERSON” entities from the above json and mask them with <> to avoid translation:_
+
+```code
+person = list(set(person))
+person = [i["Text"] for i in response["Entities"] if i["Type"]=="PERSON"]
+
+for i in person :
+    target_string = '<'+i+'>'
+    text = text.replace(i,target_string)
+```    
+
+
+
+
 ## Obervations and Results
 
 Input Text :
