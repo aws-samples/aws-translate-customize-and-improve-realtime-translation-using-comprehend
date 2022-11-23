@@ -7,7 +7,7 @@ Traditional dubbing is an expensive and time-consuming process, and AI voices pr
 <br>
 
 
-## Workflow
+## Workflow and Architecture
 
 <br>
 
