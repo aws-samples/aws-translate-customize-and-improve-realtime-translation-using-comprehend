@@ -1,3 +1,5 @@
+# Approach 1 - Using Custom Terminology to customize and improve translation
+
 In this approach, we will be using [Custom terminology](https://docs.aws.amazon.com/translate/latest/dg/how-custom-terminology.html) to customize Tranlsation. Using custom terminology with your translation requests enables you to make sure that your brand names, character names, model names, and other unique content is translated exactly the way you need it, regardless of its context and the Amazon Translate algorithm’s decision.
 
 When a translation request comes in, Amazon Translate reads the source sentence, creates a semantic representation of the content (in other words, it understands it), and generates a translation into the target language.
@@ -56,5 +58,4 @@ _*Improvements seen in end result :*_
 In scenarios where a movie or a huge file is being dubbed which involves a lot of entities/characters/brand names/proper nouns in general, a static list needs to be maintained which is not a scalable solution.
 
 This is being addressed in the 2nd approach where the solution uses Comprehend to detect entities and PII data dynamically and translate the text while maintaining the context using a custom workflow.
-
 
