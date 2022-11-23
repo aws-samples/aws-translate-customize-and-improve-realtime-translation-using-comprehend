@@ -25,9 +25,11 @@ What's the effect of angular braces on translation ?
 
 ## Workflow 
 
-Detecting entities :
+1. Lambda function makes DetectEntities API call to Comprehend to detect the entities in the transcript. 
 
-```json
+Detecting entities detected in the transcript :
+
+```
 
 {
     'Entities': [{
